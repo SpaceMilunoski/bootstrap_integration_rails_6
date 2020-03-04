@@ -37,7 +37,7 @@ end
 	yarn add bootstrap jquery popper.js
 ```
 
-######app/config/webpack/environment.js
+###### app/config/webpack/environment.js
 ```javascript
 const { environment } = require('@rails/webpacker')
 
@@ -68,7 +68,7 @@ h1 {
 }
 ```
 
-######app/javascript/packs/application.js
+###### app/javascript/packs/application.js
 ```javascript
 // This file is automatically compiled by Webpack, along with any other files
 // present in this directory. You're encouraged to place your actual application logic in
@@ -102,7 +102,7 @@ Then test it.
 
 To do this, we’ll need to update config/webpacker.yml to be able to resolve assets stored in the app/assets folder.
 
-######config/webpacker.yml
+###### config/webpacker.yml
 look for this line
 ```javascript
 resolved_paths: []
@@ -125,3 +125,7 @@ import home styles
 @import "./_custom";
 @import "stylesheets/home";
 ```
+
+###sources:
+- https://medium.com/@adrian_teh/ruby-on-rails-6-with-webpacker-and-bootstrap-step-by-step-guide-41b52ef4081f
+- https://medium.com/@guilhermepejon/how-to-install-bootstrap-4-3-in-a-rails-6-app-using-webpack-9eae7a6e2832
