@@ -1,7 +1,10 @@
 # Rails + webpacker boostrap pooper jquery
- rails new hello_rails
+##### This tutorial assumes that you have installed and configured rails 6
+Begin by creating a new Rails 6 application:
+```sh
+rails new hello_rails
 rails g controller home
-
+```
 ###### app/views/layouts/application.html.erb
 
 ```html
