@@ -58,7 +58,7 @@ module.exports = environment
 
 Lets create a new sub folder called stylesheets under app/javascript . Inside it we will create the main application.scss file to store our css library imports along with a _custom.scss file to store our custom styles. 
 
-###### app/javascript/packs/stylesheets/application.scss
+###### app/javascript/stylesheets/application.scss
 ```scss
 @import "~bootstrap/scss/bootstrap"; 
 @import "./_custom";
