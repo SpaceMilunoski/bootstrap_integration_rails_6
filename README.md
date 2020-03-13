@@ -64,7 +64,7 @@ Lets create a new sub folder called stylesheets under app/javascript . Inside it
 @import "./_custom";
 ```
 
-###### app/javascript/packs/stylesheets/_custom.scss
+###### app/javascript/stylesheets/_custom.scss
 ```scss
 h1 { 
   color: red;
